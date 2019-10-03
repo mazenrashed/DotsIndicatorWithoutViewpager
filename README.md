@@ -1,6 +1,7 @@
 # Dots indicator without viewpager
 
 ![](https://jitpack.io/v/mazenrashed/DotsIndicatorWithoutViewpager.svg)
+
 Dots indicator to use it without viewpager, You can use it with swipe gestures, buttons, etc..
 
 ![](https://media.giphy.com/media/dUs6RgepqKTR0UrEkl/giphy.gif)
