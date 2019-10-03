@@ -69,5 +69,5 @@ dotsIndicator.initDots(dotsCount)
 
 ## Contributing
 
-We welcome contributions to Printooth!
+We welcome contributions !
 * ⇄ Pull requests and ★ Stars are always welcome.
