@@ -4,26 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/colorAccent">
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
 
     <com.mazenrashed.dotsindicator.DotsIndicator
+        android:id="@+id/dots_indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        app:dot_height="7dp"
+        app:dot_width="7dp"
         app:dots_count="4"
-        app:selected_dot_scale_factor="1.4"
+        app:first_dot_height="14dp"
+        app:first_dot_width="14dp"
         app:first_selected_dot_resource="@drawable/ic_home_white_24dp"
         app:first_unselected_dot_resource="@drawable/ic_home_gray_24dp"
         app:selected_dot_resource="@drawable/circle_white"
         app:unselected_dot_resource="@drawable/circle_gray"
+        app:margins_between_dots="17dp"
+        app:selected_dot_scale_factor="1.4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:dot_height="7dp"
-        app:dot_width="7dp"
-        app:first_dot_height="14dp"
-        app:first_dot_width="14dp"
-        app:margins_between_dots="17dp"/>
+        />
+
+    <Button
+        android:id="@+id/next_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="next page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dots_indicator" />
+
+    <Button
+        android:id="@+id/previous_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="previous page"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dots_indicator" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
