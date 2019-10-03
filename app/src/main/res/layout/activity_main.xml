@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent">
+
+    <com.mazenrashed.dotsindicator.DotsIndicator
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:dots_count="4"
+        app:selected_dot_scale_factor="1.4"
+        app:first_selected_dot_resource="@drawable/ic_home_white_24dp"
+        app:first_unselected_dot_resource="@drawable/ic_home_gray_24dp"
+        app:selected_dot_resource="@drawable/circle_white"
+        app:unselected_dot_resource="@drawable/circle_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:dot_height="7dp"
+        app:dot_width="7dp"
+        app:first_dot_height="14dp"
+        app:first_dot_width="14dp"
+        app:margins_between_dots="17dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
