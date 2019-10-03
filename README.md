@@ -66,3 +66,8 @@ dotsIndicator.onSelectListener = {
 ```kotlin
 dotsIndicator.initDots(dotsCount)
 ```
+
+## Contributing
+
+We welcome contributions to Printooth!
+* ⇄ Pull requests and ★ Stars are always welcome.
